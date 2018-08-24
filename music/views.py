@@ -5,5 +5,5 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('<h1>THIS IS A STATIC PAGE</h1>')
+    return HttpResponse('<h1>THIS IS A STATIC11 PAGE</h1>')
 

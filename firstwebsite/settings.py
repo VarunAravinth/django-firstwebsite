@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'music.apps.MusicConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'firstwebsite.urls'
+
 
 TEMPLATES = [
     {
